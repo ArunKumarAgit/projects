@@ -3,6 +3,3 @@
 ## Project
 
 # Project
-
-~~project~~
-` cl `
