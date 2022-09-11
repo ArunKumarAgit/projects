@@ -7,12 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="./quotes.js"></script>
     <script src="./script.js" defer></script>
-    <title>template</title>
+    <title>QuoteGenerator</title>
 </head>
 
 <body>
-    <h1>aru</h1>
+    <div class="quote-container" id="quote-container">
+        <!-- quote -->
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span class="quote"></span>
+        </div>
+        <!-- author -->
+        <div class="quote-author">
+            <span id="author"></span>
+        </div>
+        <!-- button -->
+        <div class="button-container">
+            <button id="twiiter" class="twitter-button" title="tweet this">
+                <i class="fab fa-twitter"></i>
+            </button>
+        </div>
+
+    </div>
 </body>
 
 </html>
